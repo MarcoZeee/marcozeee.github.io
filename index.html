@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Marco Zee</title>
+    <style>
+    	html {
+    		background: lightgrey;
+        font-size: 10px;
+        font-family: Georgia, sans-serif;
+
+    	}
+      h1  {
+        font-family: Herculanum;
+        color: gold;
+        font-size: 5rem;
+        text-align: center;
+        display: grid;
+        
+      }
+      h2 {
+        font-size:4rem;
+        padding: 6rem;
+      }
+      span {
+        display: grid;
+        line-height: 1rem;
+      }
+      
+      body {
+        margin:0;
+      }
+      ul {
+        line-height: 1rem;
+      }
+      div p {
+        font-size: 2.5rem;
+        font-family: Georgia, sans-serif ;
+        line-height: 5rem;
+        padding: 2rem 6rem 2rem 6rem;
+
+      } 
+
+      table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 1rem;
+  padding: 6rem;
+            }
+
+thead th:nth-child(1) {
+  width: 30%;
+  
+            }
+
+thead th:nth-child(2) {
+  width: 70%;
+  
+            }
+tbody th {
+  width: 30%;
+  font-size: 3rem;
+  background: linear-gradient(135deg, skyblue, deepskyblue);
+  box-shadow: 10px 5px 5px powderblue;
+  border-radius: 1rem;
+  text-align: center;
+  color: white;
+}
+tbody td {
+  width:70%;
+  font-size: 2rem;
+  border: solid 2px lightgrey;
+  text-align: left;
+  border-radius: 1rem;
+
+}
+
+
+th, td {
+  padding: 20px;
+            }
+
+th:hover{
+color: gold;
+}
+       #sun {
+        
+            position: absolute; 
+            top: 1rem; 
+            left: 70%;
+
+      }
+
+      #intro,#profile,article div {
+        margin: 3rem 3rem;
+        padding: 2rem 15rem 2rem 15rem;
+       
+        background: white;
+        display: block;
+        box-sizing: content-box;
+        border-radius: 1rem;
+      }
+#introduction, #insight,table, {
+  padding: 0 12rem 0 12rem;
+}
+     
+      #navbar {
+  overflow: hidden;
+  background-color: black;
+  z-index: 1;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 2rem 2rem;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+#navbar a:hover {
+  background-color: skyblue;
+  color: black;
+}
+
+#navbar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+     
+      .bg-container {
+        background: linear-gradient(180deg, lightgrey 0%, powderblue 15%, lightskyblue 25% , skyblue 45% , deepskyblue 65% , dodgerblue 85%);
+        height: 4000px;
+    
+      
+      }
+
+
+    </style>
+    
+  </head>
+  <body>
+    <div id="navbar">
+  <a href="#profile">Home</a>
+  <a href="#intro">5Ps of Marco
+    <a href="#plan">Plan</a>
+    <a href="#ploy">Ploy</a>
+    <a href="#position">Position</a>
+    <a href="#pattern">Pattern</a>
+    <a href="#perspective">Perspective</a>
+  </a>
+  <a href="#contact">Contact</a>
+  </div>
+      <div id="profile">
+        <div class="heading"><h1>Marco Zee</h1>
+          <p id="introduction">
+            This is the website dedicated to showcasing the work of Marco. In summary, <a href="https://www.open.edu/openlearn/money-business/what-strategy/content-section-2">Mintzberg's 5P on strategy</a> is used to interpret and analyze him as a strategist and a developer. From a front-end development point of view, he incorporates UX design and coding(HTML, CSS and Vanila JavaScript) to ensure the website is neat and usable. He believes the internet is a better place when we care and share.
+          </p>
+        </div>
+      <p id="sun">
+        <svg height="150" width="300">
+          <circle cx="50%" cy="0%" r="50%" fill="gold" />
+      </svg>
+      </p>
+      
+      </div>
+  <div id="intro">
+        
+        <table>
+  
+  <tbody>
+    <tr>
+      <th scope="row">Plan</th>
+      <td>What's the goal and strategic objective? What is the 'next big thing'?</td>
+      
+    </tr>
+    <tr>
+      <th scope="row">Ploy</th>
+      <td>What kind of tactics should be used in a fast changing environemnt?</td>
+    
+    </tr>
+
+    <tr>
+      <th scope="row">Position</th>
+      <td>What are his biggest strengthes? What is the competitive advantage in this scenario?</td>
+     
+    </tr>
+    <tr>
+      <th scope="row">Pattern</th>
+      <td>What occured in the past can have a huge impact on the future? Is there a framework or guideline to follow? </td>
+     
+    </tr>
+    <tr>
+      <th scope="row">Perspective</th>
+      <td>What is so unique about his personality? How can he distinguish from the crowd?</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+      <div class="bg-container">
+        <article id="article">
+          <div id="insight">
+          <h2>
+            Setting the strategic objective and imagining the 'next big thing'
+          </h2>
+          <p>
+            While the traditional front end development job requires only programming skill, the contemporary front-end entails more work on building a better user experience. In my case, I do believe that the tranisition from prgrammer to developer is a real challenge for everyone, and full stack is not the only pathway for anyone who's interested in advancing their career as a developer.
+          </p>
+          <p>
+            The future of this professional path, however, lies in the combination of both and sometimes even more expertise such as knowledge on strategy and management. My plan is, learning the most widespread technologies for now, to help the companies especially in education and other knnowledge intense industries with more responsive apps and websites. 
+          </p>
+          <p>
+            Knowledge based industries are facing severe challenges right now, and the traditional way of delivering such products can be daunting for companies in transition. Therefore, a more holistic approach should be accepted by the community of tech and education or maybe sometimes, consulting sector.
+          </p>
+          <p>
+            New competitor usually emerges from other industries. Take Duolingo as an example. The language learning platform uses cutting edge UI/UX design and proper technologies to make their product more tangible. Should other education companies worry about it? There's always a game changer around the corner, and the only thing we know is that it will happen, regardless of knowing what, when and how. Staying focus is not enough, we ought to stay alert and forward.
+          </p>
+          <p>
+            But what about planning? Should we more concern about plans? Nobody can predict what's gonna happen next exactly, instead, what we do is to provide insights on visions and directions. So let me rewind, my objective is to keep learning new technologies. The final goal? Irrevelency can be kept at bay.
+          </p>
+        </div>
+        <div>
+          <p>
+            
+          </p>
+        </div>
+        <div>
+          
+        </div>
+        </article>
+        
+        
+      </div>
+   
+
+  </body>
+  <script>
+  	let navbar = document.querySelector('#navbar');
+    let sticky = navbar.offsetTop;
+
+    window.onscroll = function(){
+      if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+    }
+  
+
+  </script>
+</html>
