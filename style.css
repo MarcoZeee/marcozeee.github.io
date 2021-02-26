@@ -137,7 +137,7 @@ color: gold;
      
       .bg-container {
         background: linear-gradient(180deg, lightgrey 0%, powderblue 15%, lightskyblue 25% , skyblue 45% , deepskyblue 65% , dodgerblue 85%);
-        height: 5000px;
+        height: 100%;
     
       
       }
