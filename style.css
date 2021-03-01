@@ -1,61 +1,55 @@
 html {
-    		background: lightgrey;
-        font-size: 10px;
-        font-family: Georgia, sans-serif;
+  background: lightgrey;
+  font-size: 10px;
+  font-family: Georgia, sans-serif;
+}
+h1 {
+  font-family: Herculanum;
+  color: gold;
+  font-size: 5rem;
+  text-align: center;
+  display: grid;
+}
+h2 {
+  font-size: 4rem;
+}
+h3 {
+  text-align: center;
+  font-size: 3rem;
+}
+span {
+  display: grid;
+  line-height: 1rem;
+}
 
-    	}
-      h1  {
-        font-family: Herculanum;
-        color: gold;
-        font-size: 5rem;
-        text-align: center;
-        display: grid;
-        
-      }
-      h2 {
-        font-size:4rem;
-        padding: 6rem;
-      }
-      h3 {
-        text-align: center;
-        font-size: 3rem;
-      }
-      span {
-        display: grid;
-        line-height: 1rem;
-      }
-      
-      body {
-        margin:0;
-      }
-      ul {
-        line-height: 1rem;
-      }
-      div p {
-        font-size: 2.5rem;
-        font-family: Georgia, sans-serif ;
-        line-height: 5rem;
-        padding: 2rem 6rem 2rem 6rem;
+body {
+  margin: 0;
+}
+ul {
+  line-height: 1rem;
+}
+div p {
+  font-size: 2.5rem;
+  font-family: Georgia, sans-serif;
+  line-height: 5rem;
+ 
+}
 
-      } 
-
-      table {
+table {
   table-layout: fixed;
   width: 100%;
   border-collapse: separate;
   border-spacing: 1rem;
-  padding: 6rem;
-            }
+  padding: 0rem;
+}
 
 thead th:nth-child(1) {
   width: 30%;
-  
-            }
+}
 
 thead th:nth-child(2) {
   width: 70%;
-  
-            }
+}
 tbody th {
   width: 30%;
   font-size: 3rem;
@@ -66,47 +60,52 @@ tbody th {
   color: white;
 }
 tbody td {
-  width:70%;
+  width: 70%;
   font-size: 2rem;
   border: solid 2px lightgrey;
   text-align: left;
   border-radius: 1rem;
-
 }
 
-
-th, td {
+th,
+td {
   padding: 20px;
-            }
-
-th:hover{
-color: gold;
 }
-       #sun {
-        
-            position: absolute; 
-            top: 1rem; 
-            left: 70%;
 
-      }
-
-      #intro,#profile,article div {
-        margin: 3rem 3rem;
-        padding: 2rem 15rem 2rem 15rem;
-       
-        background: white;
-        display: block;
-        box-sizing: content-box;
-        border-radius: 1rem;
-      }
-#introduction, #insight,table, {
-  padding: 0 12rem 0 12rem;
+th:hover {
+  color: gold;
 }
-     
-      #navbar {
+
+details summary {
+  font-size: 2.5rem;
+}
+#sun {
+  position: absolute;
+  top: 1rem;
+  left: 70%;
+}
+
+#intro,
+#profile,
+article div {
+  margin: 3rem 3rem;
+  padding: 2rem 20rem 2rem 20rem;
+
+  background: white;
+  display: block;
+  box-sizing: content-box;
+  border-radius: 1rem;
+}
+
+#insight {
+  padding: 2rem 20rem 2rem 20rem;
+}
+
+#navbar {
   overflow: hidden;
   background-color: black;
   z-index: 1;
+  width: 100%;
 }
 
 #navbar a {
@@ -125,7 +124,7 @@ color: gold;
 }
 
 #navbar a.active {
-  background-color: #4CAF50;
+  background-color: #4caf50;
   color: white;
 }
 
@@ -134,11 +133,16 @@ color: gold;
   top: 0;
   width: 100%;
 }
-     
-      .bg-container {
-        background: linear-gradient(180deg, lightgrey 0%, powderblue 15%, lightskyblue 25% , skyblue 45% , deepskyblue 65% , dodgerblue 85%);
-        height: 100%;
-    
-      
-      }
 
+.bg-container {
+  background: linear-gradient(
+    180deg,
+    lightgrey 0%,
+    powderblue 15%,
+    lightskyblue 25%,
+    skyblue 45%,
+    deepskyblue 65%,
+    dodgerblue 85%
+  );
+  height: 100%;
+}
