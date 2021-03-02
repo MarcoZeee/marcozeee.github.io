@@ -17,13 +17,20 @@ h3 {
   text-align: center;
   font-size: 3rem;
 }
-span {
-  display: grid;
-  line-height: 1rem;
-}
 
 body {
   margin: 0;
+  background: linear-gradient(
+    180deg,
+    lightgrey 0%,
+    #B9D9EB 5%,
+    powderblue 15%,
+    lightskyblue 25%,
+    skyblue 45%,
+    deepskyblue 65%,
+    dodgerblue 85%
+  );
+  height: 100%;
 }
 ul {
   line-height: 1rem;
@@ -40,7 +47,7 @@ table {
   width: 100%;
   border-collapse: separate;
   border-spacing: 1rem;
-  padding: 0rem;
+  
 }
 
 thead th:nth-child(1) {
@@ -76,17 +83,53 @@ th:hover {
   color: gold;
 }
 
-details {
-  font-size: 2rem;
+summary, details {
+  font-size: 1.5rem;
   color: dodgerblue;
+  background-color: lightgrey;
+  padding: 1rem;
+  border-radius: 1rem;
+  line-height: 2rem;
+
 }
+footer {
+  display: flex;
+  padding: 1rem;
+  text-align: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  background: dodgerblue;
+  color: #fff;
+}
+a {
+  color: darkblue;
+  text-decoration: none;
+}
+a:link, a:visted, a:active { 
+  color: purple;
+  text-decoration: none;
+
+}
+a:hover {
+ color: darkblue; 
+ text-decoration: underline;
+}
+
 #sun {
   position: absolute;
   top: 1rem;
   left: 70%;
 }
 
-#intro,
+#intro {
+  margin: 3rem;
+  padding: 2rem;
+
+  background: white;
+  display: block;
+  box-sizing: content-box;
+  border-radius: 1rem;
+}
 #profile,
 article div {
   margin: 3rem 3rem;
@@ -135,15 +178,3 @@ article div {
   width: 100%;
 }
 
-.bg-container {
-  background: linear-gradient(
-    180deg,
-    lightgrey 0%,
-    powderblue 15%,
-    lightskyblue 25%,
-    skyblue 45%,
-    deepskyblue 65%,
-    dodgerblue 85%
-  );
-  height: 100%;
-}
