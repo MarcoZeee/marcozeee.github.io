@@ -12,6 +12,10 @@ h1 {
 }
 h2 {
   font-size: 4rem;
+  color: #fff;
+  background: #212121;
+  padding: 1rem;
+  border-radius: 1rem;
 }
 h3 {
   text-align: center;
@@ -64,7 +68,7 @@ tbody th {
   box-shadow: 10px 5px 5px powderblue;
   border-radius: 1rem;
   text-align: center;
-  color: white;
+  color: #fff;
 }
 tbody td {
   width: 70%;
@@ -86,8 +90,8 @@ th:hover {
 summary, details {
   font-size: 1.5rem;
   color: dodgerblue;
-  background-color: lightgrey;
-  padding: 1rem;
+  background-color: #E0E0E0;
+  padding: 1.5rem;
   border-radius: 1rem;
   line-height: 2rem;
 
@@ -102,7 +106,7 @@ footer {
   color: #fff;
 }
 a {
-  color: darkblue;
+  color: dodgerblue;
   text-decoration: none;
 }
 a:link, a:visted, a:active { 
@@ -111,7 +115,7 @@ a:link, a:visted, a:active {
 
 }
 a:hover {
- color: darkblue; 
+ color: dodgerblue; 
  text-decoration: underline;
 }
 
@@ -125,7 +129,7 @@ a:hover {
   margin: 3rem;
   padding: 2rem;
 
-  background: white;
+  background: #fff;
   display: block;
   box-sizing: content-box;
   border-radius: 1rem;
@@ -135,15 +139,13 @@ article div {
   margin: 3rem 3rem;
   padding: 2rem 20rem 2rem 20rem;
 
-  background: white;
+  background: #fff;
   display: block;
   box-sizing: content-box;
   border-radius: 1rem;
 }
 
-#insight {
-  padding: 2rem 20rem 2rem 20rem;
-}
+
 
 #navbar {
   overflow: hidden;
@@ -169,7 +171,7 @@ article div {
 
 #navbar a.active {
   background-color: #4caf50;
-  color: white;
+  color: #fff;
 }
 
 .sticky {
