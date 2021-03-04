@@ -8,7 +8,8 @@ h1 {
   color: gold;
   font-size: 5rem;
   text-align: center;
-  display: grid;
+  padding: 1.5rem;
+
 }
 h2 {
   font-size: 4rem;
@@ -89,7 +90,7 @@ th:hover {
 
 summary, details {
   font-size: 1.5rem;
-  color: dodgerblue;
+  color: 212121;
   background-color: #E0E0E0;
   padding: 1.5rem;
   border-radius: 1rem;
@@ -106,8 +107,8 @@ footer {
   color: #fff;
 }
 a {
-  color: dodgerblue;
-  text-decoration: none;
+  color: #212121;
+  text-decoration: underline;
 }
 a:link, a:visted, a:active { 
   color: purple;
@@ -118,6 +119,7 @@ a:hover {
  color: dodgerblue; 
  text-decoration: underline;
 }
+
 
 #sun {
   position: absolute;
@@ -149,7 +151,7 @@ article div {
 
 #navbar {
   overflow: hidden;
-  background-color: black;
+  background-color: #212121;
   z-index: 1;
   width: 100%;
 }
@@ -162,11 +164,12 @@ article div {
   padding: 2rem 2rem;
   text-decoration: none;
   font-size: 2rem;
+ 
 }
 
 #navbar a:hover {
   background-color: skyblue;
-  color: black;
+  color: #212121;
 }
 
 #navbar a.active {
