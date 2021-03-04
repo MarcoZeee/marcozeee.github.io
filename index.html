@@ -9,17 +9,17 @@
   <body>
     <div id="navbar">
       <nav>
-        <a href="#profile">Home</a>
+        <a href="#profile"><img src="home.svg" height="20" width="20"></a>
 
-        <a href="#plan">Plan</a>
-        <a href="#ploy">Ploy</a>
-        <a href="#position">Position</a>
-        <a href="#pattern">Pattern</a>
-        <a href="#perspective">Perspective</a>
+        <a href="#plan"><img src="plan.svg" height="20" width="20">PLAN</a>
+        <a href="#ploy"><img src="ploy.svg" height="20" width="20">PLOY</a>
+        <a href="#position"><img src="position.svg" height="20" width="20">POSITION</a>
+        <a href="#pattern"><img src="pattern.svg" height="20" width="20">PATTERN</a>
+        <a href="#perspective"><img src="perspective.svg" height="20" width="20">PERSPECTIVE</a>
 
         <a href="#caseKONUX">Case Study: KONUX</a>
 
-        <a href="#contact">Contact</a>
+        <a href="#contact"><img src="email.svg" height="20" width="20"></a>
       </nav>
     </div>
     <div id="profile">
@@ -55,7 +55,7 @@
         </p>
       </div>
       <p id="sun">
-        <svg height="150" width="300">
+        <svg height="200" width="300">
           <circle cx="50%" cy="0%" r="50%" fill="gold" />
         </svg>
       </p>
@@ -186,7 +186,7 @@
         </div>
         <div id="caseKONUX">
           <h2>
-            Case study: <a href="https://www.konux.com/about-us/">KONUX</a>'s
+            Case study: KONUX</a>'s
             entry strategy in APAC
           </h2>
           <h3>Executive summary</h3>
@@ -233,6 +233,7 @@
       </p>
     </footer>
   </body>
+  <script src="jquery.js"></script>
   <script>
     let navbar = document.querySelector("#navbar");
     let sticky = navbar.offsetTop;
@@ -244,5 +245,7 @@
         navbar.classList.remove("sticky");
       }
     };
+  
+
   </script>
 </html>
