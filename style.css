@@ -99,6 +99,7 @@ td {
 
 th:hover {
   color: gold;
+  background: deepskyblue;
 }
 
 summary, details {
