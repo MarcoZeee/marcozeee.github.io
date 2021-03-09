@@ -191,7 +191,6 @@ article div {
   background-color: #212121;
   z-index: 1;
   width: 100%;
-  position: sticky;
 }
 
 #navbar a {
