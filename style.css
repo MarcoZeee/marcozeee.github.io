@@ -10,8 +10,10 @@ h1 {
   font-size: 5rem;
   text-align: center;
   padding: 0 1.5rem 1.5rem 1.5rem;
-  background: dodgerblue;
-  width:100%;
+  background: #4166f5;
+  width: 100%;
+  height: 15rem;
+  line-height: 15rem;
 
 
 }
@@ -104,7 +106,7 @@ th:hover {
 
 summary, details {
   font-size: 1.5rem;
-  color: 212121;
+  color: #212121;
   background-color: #E0E0E0;
   padding: 1.5rem;
   border-radius: 1rem;
@@ -132,13 +134,6 @@ a:link, a:visted, a:active {
 a:hover {
  color: dodgerblue; 
  text-decoration: underline;
-}
-#landing-message  {
-  font-size: 8rem;
-  font-family: Herculanum;
-  color: gold;
-  text-align: center;
-
 }
 
 #landing {
