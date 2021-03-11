@@ -133,15 +133,11 @@ a:hover {
  color: dodgerblue; 
  text-decoration: underline;
 }
-
-figure {
-  float: left top;
+#landing-message  {
+  font-size: 8rem;
+  font-family: Herculanum;
+  color: gold;
   text-align: center;
-  padding: 0.5rem;
-  display: inline-grid;
-  position: -webkit-sticky;
-}
-figure img {
 
 }
 
